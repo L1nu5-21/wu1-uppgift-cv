@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="">
+            <img src="images/Skärmbild(2) 2022-11-23 083859.png" alt="Loga" height="150px" width="250px">
+        </a>
+    </header>
+    <div class="sidenav">
+        <b href="">
+            <img src="images/Skärmbild(Urgot-pp) 2022-11-23 085821.png" alt="Urigot">
+            <img src="images/Urgot'sGreenTea_darkmode (2).svg" alt="">
+        </b>
+        <p>
+            Beans
+        </p>
+      </div>
+    <main class="main">
+        <h1>Hello, </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci a scelerisque purus semper. Ac odio tempor orci dapibus ultrices. Eu facilisis sed odio morbi. Platea dictumst quisque sagittis purus sit amet. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Pellentesque id nibh tortor id aliquet. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Ultrices in iaculis nunc sed augue lacus viverra vitae. Sapien pellentesque habitant morbi tristique senectus.
+        </p>
+        <p>
+            Varius vel pharetra vel turpis. Duis at consectetur lorem donec massa sapien faucibus et. Laoreet sit amet cursus sit. Augue lacus viverra vitae congue eu. Id leo in vitae turpis massa sed elementum tempus. Morbi quis commodo odio aenean sed adipiscing diam donec. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Ornare suspendisse sed nisi lacus. Aliquam purus sit amet luctus venenatis. Sed cras ornare arcu dui. Ut eu sem integer vitae justo eget magna fermentum iaculis. Fermentum odio eu feugiat pretium. Consequat interdum varius sit amet. Tortor pretium viverra suspendisse potenti. Ultricies lacus sed turpis tincidunt id aliquet. Magna etiam tempor orci eu lobortis.
+        </p>
+        <p>
+            Arcu cursus euismod quis viverra nibh cras pulvinar. Maecenas accumsan lacus vel facilisis. Molestie at elementum eu facilisis sed odio morbi. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Turpis egestas maecenas pharetra convallis posuere morbi. Turpis massa tincidunt dui ut ornare lectus. A lacus vestibulum sed arcu non. Scelerisque viverra mauris in aliquam. Tellus integer feugiat scelerisque varius morbi enim nunc. Enim nunc faucibus a pellentesque sit amet porttitor eget. Mattis enim ut tellus elementum sagittis vitae et. Maecenas accumsan lacus vel facilisis. Posuere lorem ipsum dolor sit amet consectetur. Nulla porttitor massa id neque. Et tortor consequat id porta nibh venenatis cras. Scelerisque viverra mauris in aliquam sem fringilla. Amet nisl suscipit adipiscing bibendum. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Lectus quam id leo in vitae turpis massa sed.
+        </p>
+    </main>
+    <footer class="container">
+
+    </footer>
+</body>
+</html>

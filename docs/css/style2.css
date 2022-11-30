@@ -30,7 +30,6 @@ nav > ul{
     list-style: none;
     display: flex;
     padding: 0;
-    gap: 1rem;
     color: rgb(74, 202, 74);
     margin-bottom: 0%;
     margin-top: 10%;

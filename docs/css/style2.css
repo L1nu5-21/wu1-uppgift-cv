@@ -4,6 +4,35 @@ body {
     margin: 0%;
 }
 
+/*@media*/
+
+/*@media only screen and (max-width: 900px) (läs på om "position; absolute", "position; fixed" och "position; relative".){
+    header {
+        position: relative;
+    }
+}*/
+
+@media only screen and (max-width: 900px) {
+    header>a>img:nth-of-type(1) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    header>a>img:nth-of-type(2) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav>ul {
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 900px) {}
+
+
 /*Header*/
 
 .header {
@@ -15,44 +44,32 @@ body {
 
 header {
     background-color: rgb(29, 29, 27);
+    /*position: fixed; (läs på om "position; absolute", "position; fixed" och "position; relative".)*/
 }
 
 
 a>img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto;
     min-width: 187px;
     min-height: 87.4px;
-    
+
     margin-top: 4%;
     margin-left: 5%;
     padding-bottom: 4%;
-    font-family: 'Lucida Handwriting Std', sans-serif;
 }
 
 a>img:nth-of-type(2) {
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto;
     min-width: 187px;
     min-height: 87.4px;
-    
+
     margin-top: 4%;
     margin-left: 5%;
     padding-bottom: 4%;
-    font-family: 'Lucida Handwriting Std', sans-serif;
 }
 
-@media only screen and (max-width: 900px) {
-    header > a > img:nth-of-type(1){
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    header > a > img:nth-of-type(2){
-        display: none;
-    }
-}
 
 /*Nav*/
 
@@ -61,8 +78,8 @@ nav {
 }
 
 .nav {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 nav>ul {
@@ -70,30 +87,25 @@ nav>ul {
     width: 100%;
     list-style: none;
     flex-wrap: wrap;
+    gap: 1rem;
     display: flex;
     padding: 0;
-    
-    color: rgb(74, 202, 74);
-    flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: 900px) {
-    nav>ul {
-      flex-wrap: nowrap;
-    }
-}
+
 
 a:link {
-    color: rgb(74, 202, 74);
-}
-
-a:hover {
-    color: rgb(117, 175, 117);
+    color: rgb(32, 200, 32);
 }
 
 a:visited {
-    color: rgb(165, 240, 78);
+    color: rgb(68, 112, 87);
 }
+
+a:hover {
+    color: rgb(204, 244, 93);
+}
+
 
 /*Sidebar*/
 
@@ -105,6 +117,7 @@ a:visited {
 }
 
 .sidebar {
+    /*margin-top: 175px; (Relaterat till "position" proerty. Läs på om "position; absolute", "position; fixed" och "position; relative".)*/
     /* ↓ The width when the sidebar _is_ a sidebar */
     flex-basis: 20rem;
     flex-grow: 1;
@@ -112,6 +125,7 @@ a:visited {
     color: black;
     margin-bottom: 20%;
 }
+
 
 aside>h1 {
     margin-left: 10%;
@@ -123,20 +137,25 @@ aside>p {
 }
 
 aside>img {
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 5%;
     margin-left: 20%;
     /*margin-right: 20%;*/
 }
 
+
 /*Non-sidebar*/
 
 .not-sidebar {
+    /*margin-top: 175px; (Relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".)*/
     /* ↓ Grow from nothing */
     flex-basis: 0;
     flex-grow: 999;
     /* ↓ Wrap when the elements are of equal width */
     min-inline-size: 55%;
     background-color: beige;
+    padding-bottom: 15%;
 }
 
 section>h1 {
@@ -144,9 +163,22 @@ section>h1 {
     margin-left: 10px;
 }
 
+
 section>p {
     width: min(30ch, 100vW - 2rem);
     margin-left: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    section>h1 {
+        width: min(60ch, 100vW - 2rem);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    section>p {
+        width: min(60ch, 100vW - 2rem);
+    }
 }
 
 /*Footer(maybe)*/

@@ -62,7 +62,7 @@ a>img {
 a>img:nth-of-type(2) {
     max-width: 100%;
     max-height: auto;
-    min-width: 187px;
+    min-width: 75px;
     min-height: 87.4px;
 
     margin-top: 4%;

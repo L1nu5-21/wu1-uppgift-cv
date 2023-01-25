@@ -6,11 +6,12 @@ body {
 
 /*@media*/
 
-/*@media only screen and (max-width: 900px)*/ /*(Personal note: Detta är relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".){
-    header {
-        position: relative;
-    }
-}*/
+/*@media only screen and (max-width: 900px)*/
+/*(Personal note: Detta är relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".){
+            header {
+                position: relative;
+            }
+        }*/
 
 @media only screen and (max-width: 900px) {
     header>a>img:nth-of-type(1) {
@@ -40,11 +41,12 @@ body {
     width: 100%;
     list-style: none;
     display: flex;
-}
+}   
 
 header {
     background-color: rgb(29, 29, 27);
-    /*position: fixed;*/ /*(Personal note: Detta är relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".)*/
+    /*position: fixed;*/
+    /*(Personal note: Detta är relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".)*/
 }
 
 
@@ -117,7 +119,8 @@ a:hover {
 }
 
 .sidebar {
-    /*margin-top: 175px;*/ /*(Persoal note: Detta är relaterat till "position" proerty. Läs på om "position; absolute", "position; fixed" och "position; relative".)*/
+    /*margin-top: 175px;*/
+    /*(Persoal note: Detta är relaterat till "position" proerty. Läs på om "position; absolute", "position; fixed" och "position; relative".)*/
     /* ↓ The width when the sidebar _is_ a sidebar */
     flex-basis: 20rem;
     flex-grow: 1;
@@ -148,7 +151,8 @@ aside>img {
 /*Non-sidebar*/
 
 .not-sidebar {
-    /*margin-top: 175px;*/ /*(Relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".)*/
+    /*margin-top: 175px;*/
+    /*(Relaterat till "position" proerty. läs på om "position; absolute", "position; fixed" och "position; relative".)*/
     /* ↓ Grow from nothing */
     flex-basis: 0;
     flex-grow: 999;
@@ -159,7 +163,7 @@ aside>img {
 }
 
 section>h1 {
-    width: min(30ch, 100vW - 2rem);
+        
     margin-left: 10px;
 }
 

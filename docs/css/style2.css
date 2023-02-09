@@ -163,8 +163,16 @@ aside>img {
 }
 
 section>h1 {
-        
+    color: black;
     margin-left: 10px;
+}
+
+section>ul>li {
+    color: #000;
+}
+
+section>p {
+    color: #000;
 }
 
 

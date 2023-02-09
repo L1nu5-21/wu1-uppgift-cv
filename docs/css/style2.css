@@ -131,11 +131,13 @@ a:hover {
 
 
 aside>h1 {
+    font-family: 'Courier New', Courier, monospace;
     margin-left: 10%;
     font-size: medium;
 }
 
 aside>p {
+    font-family: 'Courier New', Courier, monospace;
     margin-left: 10%;
 }
 
@@ -163,11 +165,13 @@ aside>img {
 }
 
 section>h1 {
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     margin-left: 10px;
 }
 
 section>ul>li {
+    font-family: 'Courier New', Courier, monospace;
     color: #000;
 }
 

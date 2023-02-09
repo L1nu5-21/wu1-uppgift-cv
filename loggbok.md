@@ -7,7 +7,7 @@ Skriv en kort planering först.
 
 ## Planering
 
-    Följ skissen och utgå från att den lär funka gott och väll, om detta leder till problem så grått och försök hårdare. :)
+    Följ skissen och utgå från att den lär funka gott och väll, om detta leder till problem så gråt och försök hårdare. :)
 
 ## Log
 
